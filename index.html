@@ -6,29 +6,32 @@
     <title>HomeHive</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/fa030ff4b5.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
+    <header class="header">
         <nav>
-            <a href="">HomeHive</a>
+            <a class="company-name"><h3>HomeHive</h3><i class="fa-solid fa-house"></i></a>
             <ul>
-                <li>Home</li>
-                <li>About us</li>
-                <li>Properties</li>
-                <li>Log in</li>
-                <li>Register</li>
+                <li><a href="">Home</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Properties</a></li>
+                <li><a href="">Log in</a></li>
+                <li><a class="red-button" href="">Register</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <img src="./assets/mainSection-image.jpeg" alt="">
-            <h1>Discover your <br> perfect home</h1>
-            <p>With personalized service and expertise, we're here to make your search seamless and rewarding. Let's find your perfect place together.</p>
-            <button>Get Started</button>
+        <section class="first-section">
+            <div>
+                <h1>Discover your <br> perfect home</h1>
+                <p>With personalized service and expertise, we're here to make your search seamless and rewarding. Let's find your perfect place together.</p>
+                <button class="red-button">Get Started</button>
+            </div>
+            <img src="./assets/mainSection-image.jpg" alt="">
         </section>
 
-        <section>
+        <section class="numbers-section">
             <ul>
                 <li>
                     <h2>500K</h2>
@@ -38,8 +41,9 @@
                     <h2>10K+</h2>
                     <p>Happy Customers</p>
                 </li>
-                <li>
-                    <h2>4.8</h2>
+                <li >
+                    <div><i class="fas fa-star"></i>
+                        <h2>4.8</h2></div>
                     <p>Overall Rating</p>
                 </li>
             </ul>
@@ -65,17 +69,62 @@
 
         <section>
             <h2>Featured Properties</h2>
-            <ul>
-                <li>
+            <div>
+                <div>
                     <img src="./assets/property-1.png" alt="">
                     <p>Manchester,London</p>
                     <p>2 Rooms</p>
                     <p>1 Bath</p>
                     <p>1200 m2</p>
                     <h3>$75.000</h3>
-                    <button>Check Details</button>
-                </li>
-            </ul>
+                    <a href="./pages/details.html"><button>Check Details</button></a>
+                </div>
+                <div>
+                    <img src="./assets/property-2.jpg" alt="">
+                    <p>Manchester,London</p>
+                    <p>2 Rooms</p>
+                    <p>1 Bath</p>
+                    <p>1200 m2</p>
+                    <h3>$75.000</h3>
+                    <a href="./pages/details.html"><button>Check Details</button></a>
+                </div>
+                <div>
+                    <img src="./assets/property-3.png" alt="">
+                    <p>Manchester,London</p>
+                    <p>2 Rooms</p>
+                    <p>1 Bath</p>
+                    <p>1200 m2</p>
+                    <h3>$75.000</h3>
+                    <a href="./pages/details.html"><button>Check Details</button></a>
+                </div>
+                <div>
+                    <img src="./assets/property-4.png" alt="">
+                    <p>Manchester,London</p>
+                    <p>2 Rooms</p>
+                    <p>1 Bath</p>
+                    <p>1200 m2</p>
+                    <h3>$75.000</h3>
+                    <a href="./pages/details.html"><button>Check Details</button></a>
+                </div>
+                <div>
+                    <img src="./assets/property-5.png" alt="">
+                    <p>Manchester,London</p>
+                    <p>2 Rooms</p>
+                    <p>1 Bath</p>
+                    <p>1200 m2</p>
+                    <h3>$75.000</h3>
+                    <a href="./pages/details.html"><button>Check Details</button></a>
+                </div>
+                <div>
+                    <img src="./assets/property-6.png" alt="">
+                    <p>Manchester,London</p>
+                    <p>2 Rooms</p>
+                    <p>1 Bath</p>
+                    <p>1200 m2</p>
+                    <h3>$75.000</h3>
+                    <a href="./pages/details.html"><button>Check Details</button></a>
+                </div>
+            </div>
 
             <button>Show More</button>
         </section>
@@ -83,8 +132,8 @@
     </main>
     <footer>
       <p>Created by Magali Mouriño</p>
-      <img src="" alt="">
-      <img src="" alt="">
+      <a href=""><i class="fab fa-linkedin"></i></a>
+      <a href=""><i class="fab fa-github"></i></a>
     </footer>
     
 </body>

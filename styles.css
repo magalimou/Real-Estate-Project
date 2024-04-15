@@ -1,6 +1,156 @@
 /*Fuente de google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+:root {
+    --primary-color: #EDEDED;
+    --secondary-color: #0B253E;
+    --red-color: #8D0801;
+    --lightRed-color: #BF0603;
+}
+
+/*Reseteo de valores*/
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+
+/*Estilos generales*/
+body{
+    
+    color: var(--secondary-color);
+    
+}
+
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+ul{
+    list-style: none;;
+}
+
+a{
+    text-decoration: none; 
+    color: var(--secondary-color);
+    font-size: 1.25rem;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    font-family: inherit;
+}
+
+/*clases*/
+
+.header{
+    background-color: #F5F5F5;
+    box-shadow: 0px 4px 6px 0px rgba(60, 60, 60, 0.361);
+    height: 12vh;
+    position: sticky;
+    top: 0;
+        nav{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 6rem;
+            .company-name{
+                display: flex;
+                i{
+                    margin-left: 3px;
+                    margin-top: 3.5px; 
+                }
+            }
+            ul{
+                display: flex;
+                column-gap: 20px;
+                font-weight: 500;
+            }
+           
+        }
+}
+
+.first-section{
+    display: flex;
+    align-items: center;
+    div{
+        margin-left: 6rem;
+        margin-right: 5rem;
+        h1{
+            margin-bottom: 1.5rem;
+        }
+        p{
+            margin-bottom: 2rem;
+           
+        }
+        button{
+            font-size: 1.5rem;
+            border: 2px solid rgb(203, 67, 90);
+            padding-right: 3rem;
+            padding-left: 3rem;
+        }   
+    }
+    img{
+        width: 50%;
+    }
+}
+
+.numbers-section{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    height: 20vh;
+    
+   
+    ul{
+        height: 100%;
+        border: 2px solid rgb(69, 67, 203);
+        display: flex;
+        align-items: center;
+        li{
+            border: 2px solid rgb(128, 139, 7);
+            text-align: center;
+            div{
+                display: flex;
+            }
+        }
+      
+    }
+}
+
+
+.red-button{
+    background-color: var(--lightRed-color);
+    color: var(--primary-color);
+    padding: 0.7rem 1.5rem;
+    border-radius: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+/*Modificando icono*/
+.fa-solid{
+    color: var(--secondary-color);
+}
+
+.fa-star{
+    font-size: 2rem;
+    padding-top: 0.7rem;
+    margin-right: 3px;
+}
+
+
