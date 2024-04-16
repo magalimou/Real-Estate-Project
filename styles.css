@@ -167,6 +167,45 @@ button {
     border-bottom-right-radius: 16px;
 }
 
+.featured-section{
+    width: 88%;
+    border: 2px solid rgb(203, 67, 90);
+    margin: 0 auto;
+    h2{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .galery-p{
+
+    }
+    .property{
+        border: 2px solid rgb(203, 67, 90);
+    }
+}
+
+.footer{
+    height: 12vh;
+    background-color: var(--red-color);
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6rem;
+    p{
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+    div{
+        column-gap: 20px;
+        i{
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-right: 15px;
+        }
+    }
+   
+}
+
 .red-button{
     background-color: var(--lightRed-color);
     color: var(--primary-color);
