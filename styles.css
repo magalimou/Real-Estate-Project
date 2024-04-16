@@ -29,11 +29,12 @@ h1{
 }
 
 h2{
-    font-size: 3rem;
+    font-size: 3.4rem;
 }
 
 p{
     font-size: 1.5rem;
+    font-weight: 500;
 }
 
 ul{
@@ -98,6 +99,7 @@ button {
         p{
             margin-bottom: 2rem;
            
+           
         }
         button{
             font-size: 1.5rem;
@@ -115,22 +117,49 @@ button {
     background-color: var(--secondary-color);
     color: var(--primary-color);
     height: 20vh;
-    
-   
     ul{
         height: 100%;
         border: 2px solid rgb(69, 67, 203);
         display: flex;
         align-items: center;
+        justify-content: space-around;
         li{
-            border: 2px solid rgb(128, 139, 7);
             text-align: center;
             div{
                 display: flex;
+                
             }
         }
       
     }
+}
+
+.about-section{
+    .sub-title{
+        text-align: center;
+        font-weight: 600;
+        border: 2px solid rgb(203, 67, 90);
+        padding: 80px 0;
+        font-size: 2.5rem;
+    }
+    .building-dreams{
+        background-color: var(--primary-color);
+        display: flex;
+        margin: 5rem 6rem;
+        box-shadow: 0px 4px 6px 0px rgba(60, 60, 60, 0.361);
+        border-radius: 16px;
+        align-items: center;
+        .box{
+            margin-left: 5rem;
+            margin-right: 5rem;
+            h2{
+                margin-bottom: 1rem;
+            }
+        }
+        img{
+            width: 50%;
+        }
+    } 
 }
 
 
@@ -150,7 +179,7 @@ button {
 .fa-star{
     font-size: 2rem;
     padding-top: 0.7rem;
-    margin-right: 3px;
+    margin-right: 13px;
 }
 
 
