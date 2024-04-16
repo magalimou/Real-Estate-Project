@@ -168,7 +168,7 @@ button {
 }
 
 .featured-section{
-    width: 88%;
+    width: 95%;
     border: 2px solid rgb(203, 67, 90);
     margin: 0 auto;
     margin-bottom: 2.5rem;
@@ -182,7 +182,6 @@ button {
             flex-wrap: wrap;
             justify-content: space-evenly;
             border: 2px solid rgb(0, 234, 255);
-
             .property{
                 border: 2px solid rgb(18, 232, 114);
                 width: 400px;
