@@ -139,13 +139,13 @@ button {
         text-align: center;
         font-weight: 600;
         border: 2px solid rgb(203, 67, 90);
-        padding: 80px 0;
+        padding: 80px 0 0 10px;
         font-size: 2.5rem;
     }
-    .building-dreams{
+    .square-section{
         background-color: var(--primary-color);
         display: flex;
-        margin: 5rem 6rem;
+        margin: 7rem 6rem;
         box-shadow: 0px 4px 6px 0px rgba(60, 60, 60, 0.361);
         border-radius: 16px;
         align-items: center;
@@ -162,6 +162,10 @@ button {
     } 
 }
 
+.keys{
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
 
 .red-button{
     background-color: var(--lightRed-color);
