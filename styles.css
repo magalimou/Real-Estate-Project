@@ -55,6 +55,7 @@ button {
     padding: 0;
     margin: 0;
     font-family: inherit;
+    transition: all 0.3s ease;
 }
 
 /*clases*/
@@ -86,6 +87,9 @@ button {
                 display: flex;
                 column-gap: 20px;
                 font-weight: 500;
+                li{
+                    padding: 0.5rem;
+                }
             }
            
         }
@@ -307,7 +311,7 @@ button {
                 width: 60%;
                 margin-bottom: 1rem;
             }
-            button{
+            .login-button{
                 font-size: 1.2rem;
                 font-weight: 600;
                 color: var(--primary-color);
@@ -316,6 +320,9 @@ button {
                 width: 60%;
                 border-radius: 10px;
                 margin-bottom: 2rem;
+            }
+            .login-button:hover{
+                background-color: #15416d;
             }
             h3{
                 font-size: 1.1rem;
@@ -400,6 +407,20 @@ button {
 
 }
 
+.hover-red-b:hover{
+    background-color: #d12a27;
+}
+
+.hover-blue-b:hover{
+    background-color: #15416d;
+}
+
+.hover-light-red:hover{
+    background-color: #c7c7dda1;
+    border-radius: 10px;
+    
+}
+
 /*Modificando icono*/
 .fa-solid{
     color: var(--secondary-color);
@@ -412,5 +433,5 @@ button {
 }
 
 .fa-house{
-    padding-top: 0.3rem;  
+    padding-top: 0.3rem;
 }
