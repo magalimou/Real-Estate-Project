@@ -105,13 +105,10 @@ button {
             margin-bottom: 1.5rem;
         }
         p{
-            margin-bottom: 2rem;
-           
-           
+            margin-bottom: 2rem; 
         }
         button{
             font-size: 1.5rem;
-            border: 2px solid rgb(203, 67, 90);
             padding-right: 3rem;
             padding-left: 3rem;
         }   
@@ -218,7 +215,7 @@ button {
                             align-items: center;
                            /* border: 2px solid black;*/
                             column-gap: 5px;
-                            padding-left: 2.3rem;
+                            padding-left: 1.9rem;
                          }
                     
                             .prop-details{
@@ -434,4 +431,141 @@ button {
 
 .fa-house{
     padding-top: 0.3rem;
+}
+
+/*Media Queries mobile phone*/
+@media screen and (max-width: 768px){
+
+    /*INDEX PAGE*/
+    .header{
+        nav{
+            padding: 0 2rem;
+            flex-direction: row;
+            .hide{
+                display: none;
+            }
+            .company-name{
+                h3{
+                    font-size: 1.5rem;
+                }
+                
+                i{
+                    display: none;
+                }
+            }
+            ul{
+                font-size: 1rem;
+                column-gap: 10px;
+            }
+        }
+
+    }
+
+    /*FIRST SECTION - index*/
+    .first-section{
+       flex-direction: column-reverse;
+       text-align: center;
+        div{
+            
+            margin: 1rem 2rem;
+            h1{
+                font-size: 2.5rem;
+                margin-bottom: 1rem; 
+            }
+            p{
+                font-size: 1.2rem;
+                margin-bottom: 1rem;
+            }
+            button{
+                font-size: 1.2rem;
+                padding-right: 2rem;
+                padding-left: 2rem;
+                margin-bottom: 1rem;
+            }   
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    /*NUMBERS SECTION - index*/
+    .numbers-section{
+        ul{
+            li{
+                margin: 1rem 0;
+                h2{
+                    font-size: 1.5rem;
+                }
+                p{
+                    font-size: 1rem;
+                }
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+            }
+            i{
+                display: none;
+            }
+        }
+    }
+
+    .about-section{
+        .sub-title{
+            font-size:1.5rem;
+            padding: 1.5rem;
+            margin-top: 1rem;
+        }
+        .square-section{
+            flex-direction: column;
+            margin: 2rem auto;
+            width: 80%;
+            .box{
+                margin: 1rem 1rem;
+                h2{
+                    font-size: 1.5rem;
+                }
+                p{
+                    font-size: 1rem;
+                }
+            }
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+    .keys{
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 16px;
+        border-bottom-left-radius: 16PX;
+    }
+
+    .featured-section{
+        width: 80%;
+        h2{
+            font-size: 2rem;
+        }
+        .location{
+            padding-left: 0;
+        
+        }
+    }
+
+    .footer{
+        padding: 0 2rem;
+        div{
+            column-gap: 10px;
+            i{
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+
+    
 }
