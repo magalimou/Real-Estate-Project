@@ -445,16 +445,17 @@ button {
                 display: none;
             }
             .company-name{
+                align-items: center;
+                justify-content: center;
                 h3{
-                    font-size: 1.5rem;
+                    display: none;
                 }
                 
                 i{
-                    display: none;
+                  font-size: 1.5rem;
                 }
             }
             ul{
-                font-size: 1rem;
                 column-gap: 10px;
             }
         }
@@ -559,7 +560,8 @@ button {
     .footer{
         padding: 0 2rem;
         div{
-            column-gap: 10px;
+            display: flex;
+            column-gap: 9px;
             i{
                 font-size: 1.5rem;
             }
@@ -570,7 +572,7 @@ button {
     .login-container{
         .cont{
             width: 80%;
-            height: 70vh;
+            height: 73vh;
             .login{
                 font-size: 1.5rem;
             }
@@ -594,8 +596,7 @@ button {
                 }
                 p{
                     font-size: 0.9rem;
-                    margin: 0 2rem;
-                    margin-top: 4rem;
+                    margin: 3rem 1rem 2rem 2rem;
                 }
             }
         }
@@ -615,12 +616,6 @@ button {
             font-size: 1.5rem;
             margin-bottom: 0.5rem; 
         }
-        
-        h2{
-            font-size: 1.5rem;
-            margin-bottom: 0.5rem; 
-        }
-        
         h3{
             font-size: 1rem;
             margin-left: 0;
