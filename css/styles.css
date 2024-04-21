@@ -602,6 +602,40 @@ button {
 
     }
 
+    /*DETAILS PAGE*/
+    .grey-container{
+        padding: 2rem 2rem;
+        margin: 2rem auto;
+        width: 85%;
+        div{
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        h2{
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem; 
+        }
+        
+        h2{
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem; 
+        }
+        
+        h3{
+            font-size: 1rem;
+            margin-left: 0;
+        }
+        p{
+            font-size: 1rem;
+        }
+        ul{
+            margin-left: 1rem;
+            li{
+                font-size: 1rem;
+            }
+        }
+    }
+
 
     
 }
