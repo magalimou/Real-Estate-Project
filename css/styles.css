@@ -17,10 +17,12 @@
 }
 
 /*Estilos generales*/
+html,body{
+    scroll-behavior: smooth;
+}
+
 body{
-    
     color: var(--secondary-color);
-    
 }
 
 
@@ -172,12 +174,12 @@ button {
     border-bottom-right-radius: 16px;
 }
 
+
 .featured-section{
     width: 95%;
     /*border: 2px solid rgb(203, 67, 90);*/
     margin: 0 auto;
     margin-bottom: 2.5rem;
-    
         h2{
             text-align: center;
             margin-bottom: 2rem;
