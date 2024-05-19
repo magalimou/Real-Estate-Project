@@ -60,7 +60,16 @@ button {
     transition: all 0.3s ease;
 }
 
-/*clases*/
+/*clases globales*/
+.error-message{
+    color: var(--lightRed-color);
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+
 
 /*------------INDEX PAGE ----------------------*/
 
@@ -299,7 +308,9 @@ button {
             align-items: center;
             margin-top: 2rem;
             width: 100%;
-      
+            form{
+                width: 100%;
+            }
             input{
                 padding: 1rem 2rem;
                 border-radius: 10px;
@@ -307,7 +318,7 @@ button {
                 font-size: 1.2rem;
                 font-weight: 500;
                 width: 60%;
-                margin-bottom: 1rem;
+                margin-bottom: 0.5rem;
             }
             .login-button{
                 font-size: 1.2rem;
@@ -344,6 +355,8 @@ button {
 
     }
 }
+
+
 
 /*----------------DETAILS PAGE--------------------*/
 .img-container{

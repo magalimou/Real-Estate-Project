@@ -25,9 +25,15 @@
             <div class="cont">
                 <h2 class="login">Log in</h2>
                 <div class="div-inputs">
-                    <form action="" method="get">
-                        <input id="email" name="email" type="text" placeholder="Email">
-                        <input id="password" name="password" type="password" placeholder="Password">
+                    <form action="" method="post">
+                        <div>
+                            <input id="email" name="email" type="text" placeholder="Email">
+                            <div class="error-message"></div>
+                        </div>
+                        <div>
+                            <input class="error-input" id="password" name="password" type="password" placeholder="Password">
+                            <div class="error-message"></div>
+                        </div>
                         <button class="login-button" type="submit"> Log in</button>
                     </form>
                     <h3>If you don't have an account, <a href="./register.html"><u>Sign up here</u></a></h3>
@@ -44,6 +50,8 @@
           <a href="https://github.com/magalimou" target="_blank"><i class="fab fa-github"></i></a>
         </div>
       </footer>
+    
+    <script type="module" src="../js/validate_log_in.js"></script>
     
 </body>
 </html>
