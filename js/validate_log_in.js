@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log('Form valid');
             //submit form
         }
-        
     })
 });
 
