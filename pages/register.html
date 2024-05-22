@@ -26,10 +26,22 @@
                 <h2 class="login">Register</h2>
                 <div class="div-inputs">
                     <form action="" method="post">
-                        <input type="text" id="name" name="name" placeholder="Name">
-                        <input type="text" id="email" name="email" placeholder="Email">
-                        <input type="password" id="password" name="password" placeholder="Password">
-                        <input type="password" id="repeat-pass" name="repeat-pass" placeholder="Repeat Password">
+                        <div>
+                            <input type="text" id="name" name="name" placeholder="Name">
+                            <div class="error-message"></div>
+                        </div>
+                        <div>
+                            <input type="text" id="email" name="email" placeholder="Email">
+                            <div class="error-message"></div>
+                        </div>
+                        <div>
+                            <input type="password" id="password" name="password" placeholder="Password">
+                            <div class="error-message"></div>
+                        </div>
+                        <div>
+                            <input type="password" id="repeat-pass" name="repeat-pass" placeholder="Repeat Password">
+                            <div class="error-message"></div>
+                        </div>
                         <button type="submit" class="login-button">Register</button>
                     </form>
                     <h3>If you already have an account, <a href="./logIn.html"><u>Sign in here</u></a></h3>
