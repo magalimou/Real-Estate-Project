@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomeHive</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/weather.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/fa030ff4b5.js" crossorigin="anonymous"></script>
 </head>
@@ -202,6 +203,33 @@
             </div>
 
             <div class="show-more"><button class="button-blue hover-blue-b">Show More</button></div>
+        </section>
+
+        <section>
+            <div class="search-bar">
+            <input type="text" placeholder="Enter a city name to check the current weather.">
+            <button class="search-button hover-blue-b"><i class="fas fa-search"></i></button>
+            </div>
+
+            <div class="weather-container">
+                <img src="./assets/weather/clear.png" alt="" srcset="">
+                <div class="info-weather">
+                    <p id="city">Buenos Aires, Argentina</p>
+                    <div class="flex cont">
+                        <h3 id="temperature">20°C</h3>
+                        <div class="sky">
+                        <h3>Clear</h3>
+                        <p>Feels like 17°</p>
+                        </div>
+                    </div>
+                    <p>The maximun temperature will be 25°.</p>
+                    <ul class="flex">
+                        <li class="flex">Humidity <p>80%</p></li>
+                        <li class="flex"> Wind <p>10 km/h</p></li>
+                        <li class="flex">Min <p>17°C</p></li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
     </main>
