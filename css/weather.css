@@ -14,8 +14,7 @@
         font-weight: 600;   
     }
     input::placeholder {
-        color: #0B253E; /* Cambia este valor al color que desees */
-         /* Para asegurar que el color es completamente opaco */
+        color: #0B253E; 
       }
 }
 
@@ -36,7 +35,9 @@
     height: 50vh;
     display: flex;
     margin: 3rem auto;
-    background-image: linear-gradient(to bottom, #ededed, #e8e8e8, #e3e3e3, #dfdfdf, #dadada, #d1d1d1, #c9c9c9, #c0c0c0, #b1b1b1, #a3a3a3, #959595, #878787);
+    /*background-image: linear-gradient(to bottom, #ededed, #e8e8e8, #e3e3e3, #dfdfdf, #dadada, #d1d1d1, #c9c9c9, #c0c0c0, #b1b1b1, #a3a3a3, #959595, #878787);*/
+    background-image: linear-gradient(to bottom, #ededed, #efe9ef, #f7e4ea, #fedfde, #ffddcd, #ffdbbf, #fcdab1, #f3dba4, #f4d794, #f6d283, #f7ce72, #f8c961);
+
     border-radius: 40px;
     align-items: center;
     justify-content: center;

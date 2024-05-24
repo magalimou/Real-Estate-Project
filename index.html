@@ -207,26 +207,26 @@
 
         <section>
             <div class="search-bar">
-            <input type="text" placeholder="Enter a city name to check the current weather.">
-            <button class="search-button hover-blue-b"><i class="fas fa-search"></i></button>
+            <input name="city" id="input-city" type="text" placeholder="Enter a city name to check the current weather.">
+            <button id="button-search" class="search-button hover-blue-b"><i class="fas fa-search"></i></button>
             </div>
 
             <div class="weather-container">
                 <img src="./assets/weather/clear.png" alt="" srcset="">
                 <div class="info-weather">
-                    <p id="city">Buenos Aires, Argentina</p>
+                    <p id="city-country">Buenos Aires, Argentina</p>
                     <div class="flex cont">
                         <h3 id="temperature">20°C</h3>
                         <div class="sky">
-                        <h3>Clear</h3>
-                        <p>Feels like 17°</p>
+                        <h3 id="status">Clear</h3>
+                        <p id="feels-like">Feels like 17°</p>
                         </div>
                     </div>
                     <p>The maximun temperature will be 25°.</p>
                     <ul class="flex">
-                        <li class="flex">Humidity <p>80%</p></li>
-                        <li class="flex"> Wind <p>10 km/h</p></li>
-                        <li class="flex">Min <p>17°C</p></li>
+                        <li class="flex">Humidity <p id="humidity">80%</p></li>
+                        <li class="flex"> Wind <p id="wind">10 km/h</p></li>
+                        <li class="flex">Min <p id="min-temp">17°C</p></li>
                     </ul>
                 </div>
             </div>
@@ -240,6 +240,7 @@
         <a href="https://github.com/magalimou" target="_blank"><i class="fab fa-github"></i></a>
       </div>
     </footer>
+    <script type="module" src="./js/weather.js"></script>
     
 </body>
 </html>
