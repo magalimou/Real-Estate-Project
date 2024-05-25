@@ -35,7 +35,7 @@
     height: 50vh;
     display: flex;
     margin: 3rem auto;
-    background-image: linear-gradient(to bottom, #ededed, #efe9ef, #f7e4ea, #fedfde, #ffddcd, #ffdbbf, #fcdab1, #f3dba4, #f4d794, #f6d283, #f7ce72, #f8c961);
+    background: linear-gradient(to bottom, #ededed, #efe9ef, #f7e4ea, #fedfde, #ffddcd, #ffdbbf, #fcdab1, #f3dba4, #f4d794, #f6d283, #f7ce72, #f8c961);
     border-radius: 40px;
     align-items: center;
     justify-content: center;

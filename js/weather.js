@@ -68,39 +68,40 @@ document.addEventListener('DOMContentLoaded', () => {
 const weatherIcons = {
     'Clear': 'clear.png',
     'Sunny': 'clear.png',
-    'Mostly Sunny': 'clear.png',
-    'Partly Sunny': 'hazySunshine.png',
-    'Intermittent Clouds': 'hazySunshine.png',
-    'Hazy Sunshine': 'hazySunshine.png',
+    'Mostly sunny': 'clear.png',
+    'Mostly clear': 'clear.png',
+    'Partly sunny': 'hazySunshine.png',
+    'Intermittent clouds': 'hazySunshine.png',
+    'Hazy sunshine': 'hazySunshine.png',
     'Some clouds': 'hazySunshine.png',
-    'Mostly Cloudy': 'mostlyCloudy.png',
+    'Mostly cloudy': 'mostlyCloudy.png',
     'Cloudy': 'clouds.png',
     'Overcast': 'clouds.png',
     'Partly cloudy': 'hazySunshine.png',
     'Showers': 'rain.png',
     'A shower': 'rain.png',
-    'Mostly Cloudy w/ Showers': 'cloudyAndRainny.png',
-    'Partly Cloudy w/ Showers': 'cloudyAndRainny.png',
+    'Mostly cloudy w/ Showers': 'cloudyAndRainny.png',
+    'Partly cloudy w/ Showers': 'cloudyAndRainny.png',
     'Thunderstorms': 'thunderstorm.png',
-    'Mostly Cloudy w/ Thunderstorms': 'thunderstorm.png',
-    'Partly Cloudy w/ Thunderstorms': 'thunderstorm.png',
+    'Mostly cloudy w/ Thunderstorms': 'thunderstorm.png',
+    'Partly cloudy w/ Thunderstorms': 'thunderstorm.png',
     'Rain': 'rain.png',
     'Flurries': 'flurries.png', /////////
-    'Mostly Cloudy w/ Flurries': 'mostlyCloudy.png',
+    'Mostly cloudy w/ Flurries': 'mostlyCloudy.png',
     'Partly Cloudy w/ Flurries': 'hazySunshine.png',
     'Snow': 'snow.png', /////////////
     'Mostly Cloudy w/ Snow': 'mostlyCloudy.png',
     'Ice': 'ice.png',///////////
     'Sleet': 'sleet.png', /////////////
-    'Freezing Rain': 'rain.png',
-    'Rain and Snow': 'rain.png',
+    'Freezing rain': 'rain.png',
+    'Rain and snow': 'rain.png',
     'Hot': 'hot.png', ///////////
     'Cold': 'cold.png', ///////////////
     'Windy': 'windy.png', //////////
-    'Clear Night': 'clear-night.png',
+    'Clear night': 'clear-night.png',
     'Mostly Clear Night': 'mostly-clear-night.png',
     'Partly Cloudy Night': 'clouds-night.png',
-    'Hazy Moonlight': 'mostly-clear-night.png',
+    'Hazy moonlight': 'mostly-clear-night.png',
     'Mostly Cloudy Night': 'clouds-night.png',
     'Partly Cloudy w/ Showers Night': 'rain-night.png',
     'Mostly Cloudy w/ Showers Night': 'rain-night.png',
@@ -114,8 +115,7 @@ const weatherColors = (weatherIcon) => {
     const weatherContainer = document.getElementsByClassName('weather-container')[0]; 
 
     if (weatherContainer) {
-        
-
+    
         if (weatherIcon === 'clear.png' || weatherIcon === 'hazySunshine.png') {
             weatherContainer.style.background = 'linear-gradient(to bottom, #ededed, #efe9ef, #f7e4ea, #fedfde, #ffddcd, #ffdbbf, #fcdab1, #f3dba4, #f4d794, #f6d283, #f7ce72, #f8c961)';
         } else if (weatherIcon === 'rain.png' || weatherIcon === 'cloudyAndRainny.png' || weatherIcon === 'rain-night.png') {
@@ -159,5 +159,5 @@ const displayWeather = (weatherData, country, city) => {
     humidity.textContent = `${weatherData[0].RelativeHumidity}%`;
     wind.textContent = `${weatherData[0].Wind.Speed.Metric.Value} km/h`;
     minTemp.textContent = `${weatherData[0].TemperatureSummary.Past24HourRange.Minimum.Metric.Value}°C`;
-    maxTemp.textContent = `The maximun temperature will be ${weatherData[0].TemperatureSummary.Past24HourRange.Maximum.Metric.Value}°`;
+    maxTemp.textContent = `The maximum temperature will be ${weatherData[0].TemperatureSummary.Past24HourRange.Maximum.Metric.Value}°`;
 };
