@@ -1,4 +1,4 @@
-const apiKey = 'mmxcUMFT4ZXvr55Sc7h19b5tPWnYPA6w';
+const apiKey = 'C4AAAb23gP1LyQhQKXACxAuEUKPa392i';
 
 const getCityData = async (city) => {
     const url = `http://dataservice.accuweather.com/locations/v1/cities/search?apikey=${apiKey}&q=${city}&language=en-us&details=false`;

@@ -3,7 +3,6 @@
     justify-content: center;
     align-items: center;
     margin: 20px 0;
-    border: solid 2px red;
     input{
         width: 50%;
         height: 40%;
@@ -15,7 +14,7 @@
     }
     input::placeholder {
         color: #0B253E; 
-      }
+    }
 }
 
 .search-button{
@@ -40,11 +39,9 @@
     align-items: center;
     justify-content: center;
     img{
-        border: 2px solid green;
         height: 80%;
     }
     .info-weather{
-        border: 2px solid red;
         height: 80%;
         width: 50%;
         padding: 1.5rem;
@@ -52,9 +49,7 @@
         .cont{
             margin-top: 10px;
             margin-bottom: 10px;
-
             .sky{
-                border: 2px solid pink;
                 margin-left: 20px;
                 padding: 15px 0;
                 width: 35%;
@@ -62,7 +57,6 @@
         }
 
         ul{
-            border: 2px solid blue;
             list-style: none;
             margin-top: 10px;
             width: 70%;
@@ -91,4 +85,88 @@
         font-weight: 600;
         
     }
+}
+
+
+
+ /*Responsive design*/
+ @media screen and (max-width: 768px){
+
+    .weather-container{
+        flex-direction: column;
+       
+        img{
+            height: 30%;
+        }
+        .info-weather{
+            width: 90%;
+            height: 60%;
+            padding: 0;
+            font-size: 0.2 rem;
+
+            #city-country{
+                font-size: 1.2rem;
+                margin: 5px auto;
+                text-align: center;
+
+            }
+            .cont{
+                align-items: center;
+                justify-content: center;
+
+                .sky{
+                    width: 50%;
+                    padding: 0;
+
+                    #status{
+                        font-size: 1.3rem;
+                    }
+                    #feels-like{
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+
+            #max-temp{
+                font-size: 1rem;
+                padding-left: 30px;
+            }
+        
+            ul{
+                width: 100%;
+                flex-direction: column;
+
+                li{
+                    font-size: 1rem;
+                    padding: 2px 30px;
+                    p{
+                        font-size: 1rem;
+                    }
+                }
+            } 
+           
+            #temperature{
+                font-size: 2.5rem;
+                font-weight: 600; 
+            } 
+        }
+
+    }
+
+    .search-button{
+        width: 40px;
+        height: 40px;
+        .fa-search{
+            font-size: 1rem;
+        }
+    }
+
+    .search-bar{
+        input{
+            width: 70%;
+            height: 30%;
+            font-size: 0.77rem;
+        }
+    }
+
 }
