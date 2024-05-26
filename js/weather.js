@@ -108,7 +108,8 @@ const weatherIcons = {
     'Partly Cloudy w/ Thunderstorms Night': 'mostly-clear-night.png',
     'Mostly Cloudy w/ Thunderstorms Night': 'clouds-night.png',
     'Fog': 'clouds.png',
-    'Light fog': 'clouds.png'
+    'Light fog': 'clouds.png',
+    'Light rain': 'rain.png'
 };
 
 const weatherColors = (weatherIcon) => {
