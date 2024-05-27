@@ -23,7 +23,7 @@ const getCityData = async (city) => {
 };
 
 const getCurrentConditions = async (locationKey) => {
-    const url = `http://dataservice.accuweather.com/currentconditions/v1/${locationKey}?apikey=${apiKey}&language=en-us&details=true`;
+    const url = `https://dataservice.accuweather.com/currentconditions/v1/${locationKey}?apikey=${apiKey}&language=en-us&details=true`;
 
     try {
         const response = await fetch(url);
