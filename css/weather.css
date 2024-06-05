@@ -88,7 +88,6 @@
 }
 
 
-
  /*Responsive design*/
  @media screen and (max-width: 768px){
 
@@ -169,4 +168,74 @@
         }
     }
 
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) { 
+   
+    .search-bar{
+        border: 2px solid red;
+        input{
+            width: 75%;
+            height: 40%;
+            font-size: 1rem;
+        }
+    }
+
+    .weather-container{
+        border: 2px solid green;
+        img{
+            height: 60%;
+        }
+        .info-weather{
+            border: solid 2px pink;
+            width: 80%;
+            height: 70%;
+            padding: 2rem 0;
+            font-size: 0.5 rem;
+          
+        
+
+            #city-country{
+                font-size: 1.3rem;
+                margin: 5px auto;
+            }
+
+            .cont{
+                .sky{
+                    width: 50%;
+                    padding: 0;
+                    #status{
+                        font-size: 1.3rem;
+                    }
+                    #feels-like{
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+
+            #max-temp{
+                font-size: 1rem;
+            }
+        
+            ul{
+                width: 100%;
+                flex-direction: column;
+
+                li{
+                    font-size: 1rem;
+                    p{
+                        font-size: 1rem;
+                        padding-bottom: 5px;
+                    
+                    }
+                }
+            } 
+           
+            #temperature{
+                font-size: 3rem;
+                font-weight: 600; 
+            } 
+        }
+
+    }
 }
