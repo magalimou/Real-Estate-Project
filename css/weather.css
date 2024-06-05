@@ -182,19 +182,14 @@
     }
 
     .weather-container{
-        border: 2px solid green;
         img{
-            height: 60%;
+            height: 70%;
         }
         .info-weather{
-            border: solid 2px pink;
-            width: 80%;
             height: 70%;
             padding: 2rem 0;
             font-size: 0.5 rem;
           
-        
-
             #city-country{
                 font-size: 1.3rem;
                 margin: 5px auto;
@@ -205,10 +200,10 @@
                     width: 50%;
                     padding: 0;
                     #status{
-                        font-size: 1.3rem;
+                        font-size: 1.1rem;
                     }
                     #feels-like{
-                        font-size: 1.2rem;
+                        font-size: 1.1rem;
                     }
                 }
             }
