@@ -182,7 +182,7 @@
 
     .weather-container{
         img{
-            height: 70%;
+            height: 50%;
         }
         .info-weather{
             height: 70%;
@@ -237,7 +237,6 @@
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
 
     .search-bar{
-        border: 2px solid green;
         input{
             width: 70%;
             height: 40%;
@@ -251,7 +250,6 @@
             height: 70%;
         }
         .info-weather{
-            border: 2px solid blue;
             height: 80%;
     
             #city-country{
@@ -292,13 +290,24 @@
                 font-size: 4rem;
                 font-weight: 600; 
             } 
-            
         }
-
     }
-    
-
-   
-
 }
 
+/* Between extra large (1200px) and extra extra large (1400px) */
+@media screen and (min-width: 1200px) and (max-width: 1399.98px) { 
+  
+    .search-bar{
+        input{
+            font-size: 1.3rem;
+        }
+    }
+
+    .weather-container{
+        .info-weather{
+            ul{
+                width: 90%;
+            }
+        }
+    }
+}
